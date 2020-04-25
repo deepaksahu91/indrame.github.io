@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+ integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<style>
+
+#img1{
+padding-top:5px;
+display:inline-block;
+margin-left:150px;
+}
+#img2
+{
+display:inline-block;
+top:40px;
+left:279px;
+position:absolute;
+
+}
+
+.card-deck{margin: 2px;}
+
+
+/* On screens that are 772px or greater, set the navbar item to corner  */
+
+@media screen and (min-width: 772px) {
+#collapsibleNavbar
+{
+display:flex;
+justify-content:flex-end;
+}
+  }
+
+i{
+padding-left:9px;
+}
+h6{
+margin-top:20px;
+margin-bottom:0px;
+
+}
+.card-body{padding:0px; }
+.ft-1{padding:10px 15px 10px 15px; }
+.ft-2{padding:10px 15px;}
+
+
+</style>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="nav navbar-nav">
+        <li><a href="#"> Magazine</a></li>
+        <li><a href="#"> Retreats</a></li>
+        <li><a href="#"> Shop</a></li>
+        <li><a href="#"> About</a></li>
+        <li><a href="#"> Partnership</a></li>
+      </ul>
+  </div>  
+</nav>
+
+
+
+<div class="container-fluid">
+<div class="row">
+<div class="col">
+<div id="img1">  
+<img src="https://images.unsplash.com/photo-1587673883680-5593698ce8b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80" alt="Smiley face" height="300" width="455">
+</div>
+<div id="img2">
+<img id="img2" src="https://images.unsplash.com/photo-1544194215-541c2d3561a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80" alt="Smiley face" height="200" width="250">
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Card Deck has used to show 4 cards -->
+
+ <div class="card-deck">
+  <div class="card ">
+<i class="fa fa-camera-retro fa-3x"></i>
+<h6 class="card-title">CONNECT</h6>
+    <div class="card-body ">
+     <p class="card-text"> An imtimate environment creates space for vulnerability and connections.</p>
+    </div>
+  </div>
+  <div class="card">
+<i class="fa fa-asterisk fa-3x" ></i>
+<h6 class="card-title">Card title</h6>
+    <div class="card-body ">
+      <p class="card-text">Together we will exchange ideas, fill up on inspiration, and find new ways forward</p>
+    </div>
+  </div>
+  <div class="card">
+<i class="fa fa-building fa-3x"></i>
+<h6 class="card-title">DISCOVER</h6>
+    <div class="card-body">
+      <p class="card-text">Some text inside the third card An imtimate environment creates space for vulnerability and connections</p>
+    </div>
+  </div>
+  <div class="card">
+<i class="fa fa-camera-retro fa-3x"></i>
+<h6 class="card-title">Card title</h6>
+    <div class="card-body">
+      <p class="card-text">Some text inside the fourth card An imtimate environment creates space for vulnerability and connections </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Card Deck has used to show 2 cards -->
+<h2 class="card2-header">Upcoming retreats</h2>
+<div class="card-deck">
+
+  <div class="card ">
+ <img class="card-img-top" src="https://images.unsplash.com/photo-1578491133524-f33d9c7a7484?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80" alt="Card image">
+<p>img Text</p>
+<h2 class="card-title1">Emerging Leaders Paradise, AZ</h2>
+    <div class="card-body ">
+     <p class="card-text"> An imtimate environment creates space for vulnerability and connections.</p>
+    </div>
+<p><button type="button" class="btn btn-dark btn-sm">Learn More</button></p>
+  </div>
+
+
+  <div class="card">
+<img class="card-img-top" src="https://images.unsplash.com/photo-1587650855670-af92ab332a6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80" alt="Card image">
+<p>img Text</p>
+<h2 class="card-title1">Senior Leaders Baja, Mexico</h2>
+    <div class="card-body ">
+      <p class="card-text">Together we will exchange ideas, fill up on inspiration, and find new ways forward</p>
+    </div>
+<p class=><button type="button" class="btn btn-dark btn-sm">Learn More</button></p>
+  </div>  
+</div>
+
+
+<!-- Card Deck has used to show 3 cards -->
+<h2 class="card2-header">Upcoming retreats</h2>
+<div class="card-deck">
+
+  <div class="card ">
+      <div class="card-body ">
+     <p class="card-text"> An imtimate environment creates space for vulnerability and connections.</p>
+    </div>
+<div class="card-footer">Emmevan Designer</div>
+  </div>
+
+
+  <div class="card ">
+         <div class="card-body ">
+     <p class="card-text"> An imtimate environment creates space for vulnerability and connections.</p>
+    </div>
+<div class="card-footer">Emmevan Designer</div>
+  </div>
+ 
+<div class="card ">
+         <div class="card-body ">
+     <p class="card-text"> An imtimate environment creates space for vulnerability and connections.</p>
+    </div>
+<div class="card-footer">Emmevan Designer</div>
+  </div>
+
+</div>
+
+<!--Footer -->
+<footer class="container-fluid"> 
+
+<div class="row">
+
+<div class="col-sm-6 ft-1">
+
+<h4>Within is a collection of content and experiences for women in design and technology</h4>
+<i class="fas fa-coffee"></i>
+<i class="fas fa-file"></i>
+<i class="fas fa-cloud"></i>
+  
+<p>@2019 Design Dept</p>
+</div>
+
+
+<div class="col-sm-6 ft-2">
+        
+<p>Join our newsletter for announcement, events and more
+
+ <form class="form-inline">
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn btn-dark btn-sm">Sign Up</button>
+  </form>
+
+</div>
+
+
+</div>
+
+</footer>
+
+
+</body>
+</html>
+
